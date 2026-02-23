@@ -1,5 +1,6 @@
-*{ background-color: rgb(214, 229, 242);
-
+*{ 
+   margin: 0;
+   padding: 0;
 } 
 h1{
     color: rgb(23, 49, 121)
@@ -41,4 +42,28 @@ h1{
 
 .social-icons img:hover {
     transform: scale(1.2);
+}
+
+#sample{
+    background-color: pink;
+    border: 5px red solid;
+}
+
+.first{
+  border-style: dotted;
+  margin: 10px 15px;
+  padding: 30px;  
+}
+
+/* My flexbox properties */
+.container{
+    background-color: gray;
+}
+
+.childContainer{
+    background-color: skyblue;
+    display: flex;
+    /* flex-direction: row; */
+   /* gap: 10px; */
+    justify-content: space-between;
 }
